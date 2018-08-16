@@ -2,12 +2,20 @@
 
 # Are you a Python Developer? Something you should always remember
 
+# List vs Tuple vs Dictionary
+## Find the index of an item given a list or dict ex: mylist.index('my_item')
+# https://stackoverflow.com/questions/8653516/python-list-of-dictionaries-search ->> using generator expression
+# https://stackoverflow.com/questions/40199689/how-to-remove-index-list-from-another-list-in-python?noredirect=1&lq=1
+
 # Try Except Finally
 
 # Logging vs Logger
 
 # Are you still wandering you of "with" keyword?
 ## https://www.python.org/dev/peps/pep-0343/
+
+# Find difference between sort() and sorted()
+
 
 ### List comprehensions is a concise way to create lists.
 

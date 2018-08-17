@@ -27,3 +27,24 @@ print y  # output: ['a', 'b', 'c']
 
 print sum([x*x for x in range(10)])
 
+# another one
+my_old_samples = ['sample', 'sample1', 'sample2', 'sample3']
+# rename all tagged samples with some prefix "ABC" for example except untagged.
+renamed_list = ["ABC"+item for item in my_old_samples if item !='sample']
+print renamed_list  # output: ['ABCsample1', 'ABCsample2', 'ABCsample3']
+
+# set comprehensions
+renamed_set = {"ABC"+item for item in my_old_samples}
+print renamed_set  # output: set(['ABCsample1', 'ABCsample2', 'ABCsample3', 'ABCsample'])
+
+# dictionary comprehensions
+renamed_dict = {item: "ABC"+item for item in my_old_samples}
+print renamed_dict  # output: {'sample': 'ABCsample', 'sample1': 'ABCsample1', 'sample3': 'ABCsample3', 'sample2': 'ABCsample2'}
+
+
+
+## something cool...
+#give me count of items in my list having more than one word
+
+my_statements = ['Hey', 'This is Small', 'This could be my big String', 'goodbye']
+print sum(len(item.split())>1  for item in my_statements)  #  output: 2

@@ -28,8 +28,8 @@
 ## https://www.python.org/dev/peps/pep-0234/
 
 
-# Generators
-## Using of generator expression, we can conserve Memory.
+# Generators0
+## Using of generator expression, we can conserve Memory. lazy loading kinda - confirm
 ## You should <3 Yield keyword
 ## https://www.python.org/dev/peps/pep-0255/
 

@@ -23,3 +23,23 @@ From <https://docs.microsoft.com/en-us/sql/connect/python/pymssql/step-3-proof-o
 
 
 """
+
+
+# try:
+#
+#     sql = "select my_key, my_value from table where product_id = {}".format(111)
+#     conn = pymssql.connect("server_name", "user_name", "password", "current_db")
+#     cursor = conn.cursor()
+#     cursor.execute(sql)
+#
+#     for row in cursor:
+#         my_key_list.append(str(row[0]))
+#         my_val_list.append(str(row[1]))
+#
+#     conn.commit()
+#     my_dummy_dict = dict(zip(my_key_list, my_val_list))
+#
+# except Exception as error:
+#     print "my error message & {}".format(error)
+#     #logging.error("error occured attempting to query breed DB for germplasm Ids")
+#     #return

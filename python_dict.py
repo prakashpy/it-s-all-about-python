@@ -33,21 +33,30 @@ my_key_list = []
 my_val_list = []
 
 
-try:
+tkp = {'key1':'val1', 'key2':'val'}
 
-    sql = "select my_key, my_value from table where product_id = {}".format(111)
-    conn = pymssql.connect("server_name", "user_name", "password", "current_db")
-    cursor = conn.cursor()
-    cursor.execute(sql)
+for key, val in tkp.iteritems():
+    print "key:", key, " & val:", val
+#  output: key: key2  & val: val \n key: key1  & val: val1
+for index, key in enumerate(tkp):
+    print "index: ",index," &key: ",key,"&value:",tkp[key]
+#  output: index:  0  &key:  key2 &value: val \n index:  1  &key:  key1 &value: val1
 
-    for row in cursor:
-        my_key_list.append(str(row[0]))
-        my_val_list.append(str(row[1]))
+# item returns list of tuples with key-val --> crosscheck
+for k, v in tkp.items():
+    print k,v
 
-    conn.commit()
-    my_dummy_dict = dict(zip(my_key_list, my_val_list))
+""" 
+In python 2.x the above examples using items would return a list with tuples containing the copied key-value pairs of the dictionary. 
+In order to not copy and with that load the whole dictionary’s keys and values inside a list to the memory 
+you should prefer the iteritems method which simply returns an iterator instead of a list. 
+In Python 3.x the iteritems is removed and the items method returns view objects. 
+The benefit of these view objects compared to the tuples containing copies is that every change made to the dictionary is reflected in the view objects.
+"""
 
-except Exception as error:
-    print "my error message & {}".format(error)
-    #logging.error("error occured attempting to query breed DB for germplasm Ids")
-    #return
+## <3
+## Code below is the pythonic style for iterating through a dictionary
+d = {"first_name": "Alfred", "last_name":"Hitchcock"}
+
+for key,val in d.items():
+    print("{} = {}".format(key, val))

@@ -1,5 +1,8 @@
 from time import sleep
 
+my_list = ['a','b','c']
+print " ".join(my_list)  # Output: a b c
+
 for i in range(10):
     sleep(5)
     print i

@@ -1,11 +1,11 @@
 from time import sleep
 
-my_list = ['a','b','c']
-print " ".join(my_list)  # Output: a b c
-
-for i in range(10):
-    sleep(5)
-    print i
+# my_list = ['a','b','c']
+# print " ".join(my_list)  # Output: a b c
+#
+# for i in range(10):
+#     sleep(5)
+#     print i
 
 """
 Infinite Sequences in Python
@@ -21,3 +21,6 @@ https://stackoverflow.com/questions/5737196/is-there-an-expression-for-an-infini
 
 """
 
+for _ in range(10):
+    print 1
+    pass

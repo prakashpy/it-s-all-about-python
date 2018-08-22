@@ -46,27 +46,27 @@
 [pep-8 article on Yield](https://www.python.org/dev/peps/pep-0255/)
 
 
-###### PEP 3129 -- Class Decorators ######
+### PEP 3129 -- Class Decorators ###
 [pep-8 article on Class Decorators](https://www.python.org/dev/peps/pep-3129/)
 
 
-######  Generator Decorator (PEP 342) ######
-######it is possible to write a decorator that makes it possible to use a generator that yields exactly once to control a with-statement.
+###  Generator Decorator (PEP 342) ###
+###### it is possible to write a decorator that makes it possible to use a generator that yields exactly once to control a with-statement.
 
 
-######  Early Binding vs Late Binding ######
-######Python takes a late binding approach to lambda expressions and has no precedent for automatic, early binding.
+###  Early Binding vs Late Binding ###
+###### Python takes a late binding approach to lambda expressions and has no precedent for automatic, early binding.
 
 
-######  Pickling vs Unpickling ###### 
+###  Pickling vs Unpickling ###
 
 
 
 
-##python-patterns
+## python-patterns
 [Python Patterns](https://github.com/faif/python-patterns/blob/master/README.md)
 
-##### Python is duck typed, meaning that you won't need to plan out class hierarchies in as much detail as in Java, and has first class functions.
+###### Python is duck typed, meaning that you won't need to plan out class hierarchies in as much detail as in Java, and has first class functions.
 ###### The strategy pattern, for example, becomes much simpler and more obvious when you can just pass a function in, rather than having to make interfaces, etc. just to simulate higher order functions.
 ###### More generally, Python has syntactic sugar for a lot of common design patterns, such as the iterator and the aforementioned strategy.
 ###### It might be useful to understand these patterns (I've read Head First and found it pretty useful),
@@ -76,5 +76,4 @@
 ## python design idioms
 
 ###### By assigning the class-type to a callable object you can essentially remove any 'factory' types in your code. You are only left with callables that produce objects that should conform to some given conventions.
-
 ###### Furthermore, there are design patterns in Python that just can't be represented in other statically-typed languages efficiently. Metaclasses and function decorators are good examples of this.

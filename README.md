@@ -1,8 +1,6 @@
-# DRAFT
+## Are you a Python Developer? Something you should always remember ##
 
-## Are you a Python Developer? Something you should always remember
-
-######== is an equality test and is is an identity test.
+        '==' is an equality test and is is an identity test.
 
 
 ## List vs Tuple vs Dictionary

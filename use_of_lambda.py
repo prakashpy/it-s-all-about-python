@@ -11,7 +11,7 @@ def testfunc(input_list):
         param2: The second parameter.
 
     Returns:
-        List. returns updated list without periods replaced by white space.
+        List: returns updated list without periods replaced by white space.
     """
 
     #Note: instead of using for loop for this, we can ideally do this pythonic way.

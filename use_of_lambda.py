@@ -16,6 +16,9 @@ def testfunc(input_list):
 
     #Note: instead of using for loop for this, we can ideally do this pythonic way.
 
+    # map(func, seq) => returns new list with the elements changed by func.
+    # map can be applied to more than one func. example: map(func, a ,b ,c)
+
     return map (lambda x: x.replace(".", " "), input_list)
 
 

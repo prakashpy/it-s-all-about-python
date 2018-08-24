@@ -1,5 +1,9 @@
 """
+Lambda in Python with Map function.
 
+Limitation of Lambda.
+You can only use one expressions.
+ 
 """
 
 def testfunc(input_list):
@@ -15,7 +19,7 @@ def testfunc(input_list):
     """
 
     #Note: instead of using for loop for this, we can ideally do this pythonic way.
-
+    
     # map(func, seq) => returns new list with the elements changed by func.
     # map can be applied to more than one func. example: map(func, seq1, seq2, seq3)
 

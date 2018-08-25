@@ -49,6 +49,13 @@
 ### PEP 3129 -- Class Decorators ###
 [pep-8 article on Class Decorators](https://www.python.org/dev/peps/pep-3129/)
 
+#### In Python, functions are first-class objects. Means, functions can be passed around and used as argument. 
+#### Functions can return function. use  without parethesis when you want to return function.
+#### Inner Function, define functions inside other functions.
+
+## Decorators wrap a function, modifying its behavior. (Decorator modifies a function can change dynamically)
+
+#### Syntactic Sugar. use decorator in simpler way with @ symbol.
 
 ###  Generator Decorator (PEP 342) ###
 ###### it is possible to write a decorator that makes it possible to use a generator that yields exactly once to control a with-statement.

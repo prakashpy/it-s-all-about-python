@@ -66,7 +66,8 @@
 
 
 ###  Pickling vs Unpickling ###
-
+#### Pickling in python refers to the process of serializing objects into binary streams. Unpickling is the inverse of that. 
+#### Pickling is useful when you want to save state of your objects and reuse them at another time without losing any instace specific data.
 
 
 

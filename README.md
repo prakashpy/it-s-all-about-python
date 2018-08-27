@@ -62,7 +62,7 @@
 
 
 ###  Early Binding vs Late Binding ###
-###### Python takes a late binding approach to lambda expressions and has no precedent for automatic, early binding.
+###### Python takes a late binding approach to lambda expressions and has no precedent for automatic, early binding. FIXME
 
 
 ###  Pickling vs Unpickling ###

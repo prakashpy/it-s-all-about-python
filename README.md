@@ -84,4 +84,10 @@
 ## python design idioms
 
 ###### By assigning the class-type to a callable object you can essentially remove any 'factory' types in your code. You are only left with callables that produce objects that should conform to some given conventions.
-###### Furthermore, there are design patterns in Python that just can't be represented in other statically-typed languages efficiently. Metaclasses and function decorators are good examples of this.
+###### Furthermore, there are design patterns in Python that just can't be represented in other statically-typed languages efficiently. Metaclasses and function decorators are good examples of this
+
+
+## Garbage Collection in Python.
+
+###### when you open file using "with" keyword, always close the file. This is not mendatory but you do not want to slow down your program hence it may use space in back.
+###### Garbage collection is automatic in Python and you do not know when Python will close it! Hence, never forget to close your file!

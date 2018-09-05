@@ -30,3 +30,8 @@ if file.startswith('some'):
     print "file name starts with some."
 
 # root, ext = os.path.splitext(filename)
+
+# for case sensitivity use 're'
+name = 'TEMP-123'
+print(re.sub('^TEMP-', '', name, re.IGNORECASE))
+# output on console: 123

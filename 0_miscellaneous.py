@@ -23,4 +23,11 @@ https://stackoverflow.com/questions/5737196/is-there-an-expression-for-an-infini
 
 for _ in range(10):
     print 1
-    pass
+    pas
+
+# alternate ways to print suceess failure on console.
+import sys
+print "success"
+sys.stdout.write("Success\n")
+print "Failure"
+sys.stderr.write("Failure\n")

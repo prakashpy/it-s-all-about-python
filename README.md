@@ -32,6 +32,12 @@
 
         my_new_list = [i for i in range(10) if i%2==0]    >>> output: [0, 2, 4, 6, 8]
 
+###### List comprehension is an elegant way to define and create list in Python.
+###### List comprehension is a complete substitute for the lambda function as well as the functions map(), filter() and reduce().
+###### List comprehensions are a tool for transforming one list (any iterable actually) into another list. 
+###### During this transformation, elements can be conditionally included in the new list and each element can be transformed as needed.
+        Output Expression      var       Input Sequence   Optional Predicate
+        [ e ** 2            for e   in    a_list           if type(e) == types.IntType]
 
 ###### range vs xrange
 

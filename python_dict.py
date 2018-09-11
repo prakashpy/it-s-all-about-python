@@ -60,3 +60,23 @@ d = {"first_name": "Alfred", "last_name":"Hitchcock"}
 
 for key,val in d.items():
     print("{} = {}".format(key, val))
+
+
+"""
+Handling missing Keys in Dict
+"""
+## Option 1
+# get(key, def_val)
+
+## Option 2
+# setdefault(key, def_val)
+
+## Option 3
+# defaultdict from collections module. #### defaultdict is faster then get() or setdefault()
+
+
+"""
+Dict Exception
+"""
+# except KeyError: 
+

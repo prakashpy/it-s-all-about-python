@@ -100,3 +100,12 @@
 
 ###### when you open file using "with" keyword, always close the file. This is not mendatory but you do not want to slow down your program hence it may use space in back.
 ###### Garbage collection is automatic in Python and you do not know when Python will close it! Hence, never forget to close your file!
+
+
+
+### Python 2.7
+###### breakpoint() -- A Default Function
+###### Order of Dictionaries is guaranteed in python 3.6+
+###### async & await keywords added from 3.5+
+###### context variables; values changes based on context
+

@@ -109,3 +109,6 @@
 ###### async & await keywords added from 3.5+
 ###### context variables; values changes based on context
 
+### metaclass
+###### A metaclass is the class of a class. 
+###### Like a class defines how an instance of the class behaves, a metaclass defines how a class behaves. A class is an instance of a metaclass.

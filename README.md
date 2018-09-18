@@ -19,7 +19,11 @@
 
 
 ## Still wandering of "with" keyword?
+###### In python the with keyword is used when working with unmanaged resources (like file streams). 
+###### It allows you to ensure that a resource is "cleaned up" when the code that uses it finishes running, even if exceptions are thrown. 
+###### It provides 'syntactic sugar' for try/finally blocks.
 [With Keyword](https://www.python.org/dev/peps/pep-0343/)
+
 
 
 #### Find difference between sort() and sorted()

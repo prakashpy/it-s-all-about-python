@@ -70,6 +70,16 @@
 ###  Generator Decorator (PEP 342) ###
 ###### it is possible to write a decorator that makes it possible to use a generator that yields exactly once to control a with-statement.
 
+### Static Method / Class Method
+###### @classmethod decorator, is a builtin function decorator that is an expression that gets evaluated after your function is defined.
+###### @classmethod receives class as first argument. @classmethod is bound to the class not to the object of class.
+###### @classmethod can modify a class state that would apply across all the instances of the class.
+
+###### @classmethod -> use classmethod to create factory methods. Factory methods return class object for different use cases.
+
+###### @staticmethod. -> we use staticmethod to create utility functions. // thanks to geeksforgeeks. :)
+
+
 
 ###  Early Binding vs Late Binding ###
 ###### Python takes a late binding approach to lambda expressions and has no precedent for automatic, early binding. FIXME

@@ -8,6 +8,8 @@
 ###### Find the index of an item given a list or dict ######
         mylist.index('my_item')
 
+###### shuffle(list_name) can be used to randomizing the items of a list in python
+
 [using generator expression](https://stackoverflow.com/questions/8653516/python-list-of-dictionaries-search )
 [How to Remove index list from another list](https://stackoverflow.com/questions/40199689/how-to-remove-index-list-from-another-list-in-python?noredirect=1&lq=1)
 
@@ -43,8 +45,8 @@
         Output Expression      var       Input Sequence   Optional Predicate
         [ e ** 2            for e   in    a_list           if type(e) == types.IntType]
 
-###### range vs xrange
-
+#### range vs xrange
+###### range returns a list; xrange returns an object that acts like iterator for generating numbers on demand.
 
 ### Iterators ###
 [Iterators](https://www.python.org/dev/peps/pep-0234/)

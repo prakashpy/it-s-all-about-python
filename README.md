@@ -136,3 +136,12 @@
 ### metaclass
 ###### A metaclass is the class of a class. 
 ###### Like a class defines how an instance of the class behaves, a metaclass defines how a class behaves. A class is an instance of a metaclass.
+
+
+### #! Shebang in Python Scripts 
+###### When you execute a file from the shell, the shell tries to run the file using the command specified on the shebang line.
+
+        #!/usr/bin/env python
+        
+        ./my_file.py
+        

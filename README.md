@@ -61,9 +61,9 @@
 ### PEP 3129 -- Class Decorators ###
 [pep-8 article on Class Decorators](https://www.python.org/dev/peps/pep-3129/)
 
-#### In Python, functions are first-class objects. Means, functions can be passed around and used as argument. 
-#### Functions can return function. use  without parethesis when you want to return function.
-#### Inner Function, define functions inside other functions.
+###### In Python, functions are first-class objects. Means, functions can be passed around and used as argument. 
+###### Functions can return function. use  without parethesis when you want to return function.
+###### Inner Function, define functions inside other functions.
 
 ## Decorators wrap a function, modifying its behavior. (Decorator modifies a function can change dynamically)
 
@@ -88,9 +88,10 @@
 
 
 ###  Pickling vs Unpickling ###
-#### Pickling in python refers to the process of serializing objects into binary streams. Unpickling is the inverse of that. 
-#### Pickling is useful when you want to save state of your objects and reuse them at another time without losing any instace specific data.
-### pickle.dumps(obj) & pickle.loads(obj)
+###### Pickling in python refers to the process of serializing objects into binary streams. Unpickling is the inverse of that. 
+###### Pickling is useful when you want to save state of your objects and reuse them at another time without losing any instace specific data.
+##### pickle.dumps(obj)
+##### pickle.loads(obj)
 
         import pickle
         data = {'a':1, 'b':2}
@@ -100,8 +101,8 @@
             data_temp = pickle.load(f)
 
 ###  Monkey Patching
-#### Dynamic replacement of attributes at runtime
-#### common to use in unit testing to replace some variables to use some fixed data or replace some methods dynamically.
+###### Dynamic replacement of attributes at runtime
+###### common to use in unit testing to replace some variables to use some fixed data or replace some methods dynamically.
 
 
 ## python-patterns

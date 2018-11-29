@@ -146,3 +146,13 @@
         
         ./my_file.py
         
+### How to Copy Objects in Python
+
+###### deep copy & shallow copy 
+        import copy
+        a = copy.deepcopy(some_obj_name)
+        a2 = copy.copy(some_obj_name)
+        
+###### Difference: 
+###### In Deep Copy: any changes made to a copy of object do not reflect in the original object.
+###### In Shallow Copy: any changes made to a copy of object do reflect in the original object.

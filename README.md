@@ -156,3 +156,8 @@
 ###### Difference: 
 ###### In Deep Copy: any changes made to a copy of object do not reflect in the original object.
 ###### In Shallow Copy: any changes made to a copy of object do reflect in the original object.
+
+
+### multiprocessing vs threading
+###### multiprocessing - uses different processors, memory not shared
+###### threading - shared memory
